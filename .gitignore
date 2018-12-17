@@ -1,0 +1,6 @@
+*.class
+testSetsHomework/
+*.txt
+*.out
+*.pdf
+.vscode

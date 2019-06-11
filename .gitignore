@@ -1,6 +1,5 @@
 *.class
 graphs/
-*.txt
 *.out
 *.pdf
 .vscode

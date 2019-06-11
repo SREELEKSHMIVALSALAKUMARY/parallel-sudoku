@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-TEST_DIR="testSetsHomework"
+TEST_DIR="tests"
 
 RED='\033[1;31m'
 GREEN='\033[1;32m'
@@ -20,5 +20,5 @@ do
     n=$((elapsed%1000))
     s=$((elapsed/1000))
     m=$((s/60))
-    echo $name ${GREEN}🗸${NC} ${RED}$m"m" $((s%60))"s" $n"ms"${NC} 
+    echo $name ${GREEN}✓${NC} ${RED}$m"m" $((s%60))"s" $n"ms"${NC} 
 done

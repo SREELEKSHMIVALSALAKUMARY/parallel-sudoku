@@ -7,7 +7,10 @@ class SequentialSudoku implements SudokuAnalyser {
     @Override
     public int computeSolutionsNumber() {
 
-        if (board.isComplete()) return 1; 
+        if (board.isComplete()) {
+            System.out.println(board);
+            return 1;
+        } 
         
         int solutions = 0;
 

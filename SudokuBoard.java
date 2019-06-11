@@ -1,4 +1,4 @@
-import java.nio.file.Path;  
+import java.nio.file.Paths;  
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
@@ -93,7 +93,7 @@ class SudokuBoard {
 
     public static SudokuBoard parseFile(String filePath) throws IOException {
 
-        List<String> input = Files.readAllLines(Path.of(filePath));
+        List<String> input = Files.readAllLines(Paths.get(filePath));
         
         byte[] outputGrid = new byte[81];
 
